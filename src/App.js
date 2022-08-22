@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./style.css";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import CustomForm from "./Components/CustomForm";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <CustomForm />;
 }
 
 export default App;
+
+// StateMangement => Redux - ContextApi - Redux-toolkit
+
+// App -> Child -> Child -> Chlid
