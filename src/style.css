@@ -26,3 +26,19 @@ select {
     padding: 5px 10px;
     margin-bottom: 10px;
 }
+
+table,
+th,
+td {
+    border: 1px solid;
+    background-color: #fff;
+}
+
+table {
+    width: 50%;
+}
+
+th {
+    height: 70px;
+    width: 300px;
+}

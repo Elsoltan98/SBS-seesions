@@ -1,10 +1,10 @@
 import React from "react";
 
-const Navbar = (props) => {
+const Navbar = ({ name, handleClick }) => {
   return (
     <div>
-      <h1>Hello {props.name}</h1>
-      <button onClick={props.handleClick}>Click</button>
+      <h1>Hello {name}</h1>
+      <button onClick={handleClick}>Click</button>
     </div>
   );
 };
