@@ -1,0 +1,13 @@
+.header {
+    background-image: url('./../../assets/homeHeader.jpg');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color: #fff;
+}

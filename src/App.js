@@ -1,41 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import Navbar from "./Components/Navbar";
+import CustomNavbar from "./Components/CustomNavbar";
+import CustomHeader from "./Components/CustomHeader";
+import Clients from "./Components/Clients";
 import Footer from "./Components/Footer";
-import CustomForm from "./Components/CustomForm";
-import avatar from "./assets/person.jpg";
 
 function App() {
-  const obj = {
-    a: "Abdo",
-    b: "Mohamed",
-    c: {
-      age: 32,
-      gender: "Male",
-    },
-  };
-
-  const {
-    a,
-    b,
-    c: { age, gender },
-  } = obj;
   return (
-    <div>
-      <p>{a}</p>
-      <p>{b}</p>
-      <p>{age}</p>
-      <p>{gender}</p>
-    </div>
+    <>
+      <CustomNavbar />
+      <CustomHeader />
+      <Clients />
+      <Footer />
+    </>
   );
 }
 
-const App2 = () => {
-  return <Navbar name="Abdelhameed" />;
-};
-
-export { App, App2 };
-
-// StateMangement => Redux - ContextApi - Redux-toolkit
-
-// App -> Child -> Child -> Chlid
+export default App;

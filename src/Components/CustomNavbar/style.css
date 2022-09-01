@@ -1,0 +1,22 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container p {
+    margin-left: 10px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #112133;
+    border: none
+}
+
+.btn:hover {
+    background-color: red;
+    color: #fff;
+}

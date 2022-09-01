@@ -1,0 +1,27 @@
+.footer-container {
+    background-image: url('./../../assets/footer.png');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-container h1,
+h5 {
+    color: #fff;
+}
+
+.footer-container h5 span {
+    color: #cccccc;
+}
+
+.footer-container p {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+}
